@@ -1,0 +1,38 @@
+[33mcommit e5589df2c8cb565b9790efc75b0bf0a579072270[m
+Author: yuki <tutsujiiro0121metro_my@ezweb.ne.jp>
+Date:   Sat Feb 6 09:22:39 2016 +0000
+
+    scaffolding
+
+[33mcommit b20e9ec50c19f02e389329d0b0484dc32c053a61[m
+Author: yuki <tutsujiiro0121metro_my@ezweb.ne.jp>
+Date:   Sat Feb 6 09:18:44 2016 +0000
+
+    add devise
+
+[33mcommit 3d2e684dc32f714438f73e1b51fea820cf6709b9[m
+Merge: cf2b5bf dad60c9
+Author: haraginnosuke <ginnosuke.7749@gmail.com>
+Date:   Sat Jan 30 20:06:37 2016 +0900
+
+    Merge pull request #1 from sephiloth/feature/readme
+    
+    add README.md
+
+[33mcommit dad60c976e8f2aa45a05a55d3aaa398d7d1447ed[m
+Author: ginnosuke <ginnosuke.777@i.softbank.jp>
+Date:   Sat Jan 30 10:49:04 2016 +0000
+
+    add README.md
+
+[33mcommit cf2b5bffdecf0ee27346bd0c5033a434c92e3b54[m
+Author: yuki <tutsujiiro0121metro_my@ezweb.ne.jp>
+Date:   Sat Jan 30 09:39:00 2016 +0000
+
+    rails new
+
+[33mcommit 2f22a0313d2cac32136279a362b0fb868457e928[m
+Author: mizuiro0121 <mizuiro0121metro@yahoo.co.jp>
+Date:   Sat Jan 30 18:27:23 2016 +0900
+
+    Initial commit
