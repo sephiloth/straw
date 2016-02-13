@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+ #header{
+ 	height: 70px;
+ 	width: 100%;
+ 	background-color:#8b4513; 
+ }
+
+ .header-left{
+ 	height: 100%;
+ 	width: 120px;
+ 	color: white;
+ 	line-height: 70px;
+ 	float: left;
+ }
+
+  .header-right{
+ 	height: 100%;
+ 	width: 300px;
+ 	line-height: 70px;
+ 	float: right;
+ }
+
+ .header-right li{
+ 	padding: 0px 5px;
+ 	color: white;
+ 	line-height: 70px;
+ 	display: inline-block;
+ }

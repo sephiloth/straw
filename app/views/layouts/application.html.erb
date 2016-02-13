@@ -8,6 +8,19 @@
 </head>
 <body>
 
+<div id="header">
+  <div class="header-left">Straw</div>
+  <div class="header-right">
+    <ul>
+      <li><%= link_to 'Top', root_path %></li>
+      <li><%= link_to 'Items', items_path %></li>
+      <li><%= link_to 'New Post', new_item_path %></li>
+      <li>My Page</li>
+      <li><%= link_to 'Login', new_author_session_path %></li>
+    </ul>
+  </div>
+</div>
+
 <header>
     <nav>
         <% if author_signed_in? %><%#walsからコピペ、authorに変更%>
