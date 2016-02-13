@@ -15,5 +15,17 @@
   <%= @item.description %>
 </p>
 
+<br>
+
+<p>Leave Comment</p>
+<%= render 'comments/form' %>
+
+<% @item.comments.each do |comment|%>
+<br>
+<p>Title: <%= comment.title%></p>
+<p>Content: <%= comment.content%></p>
+<br>
+<% end %>
+
 <%= link_to 'Edit', edit_item_path(@item) %> |
 <%= link_to 'Back', items_path %>

@@ -1,6 +1,6 @@
 class ItemsController < ApplicationController
   before_action :set_item, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_author!, only:[:new, :create, :edit, :update, :destroy]
   # GET /items
   # GET /items.json
   def index
@@ -10,8 +10,8 @@ class ItemsController < ApplicationController
   # GET /items/1
   # GET /items/1.json
   def show
+    @comment = @item.comments.build
   end
-
   # GET /items/new
   def new
     @item = Item.new
