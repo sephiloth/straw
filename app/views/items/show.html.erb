@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+<h2>Item</h2>
+
 <p>
   <strong>Name:</strong>
   <%= @item.name %>
@@ -17,15 +19,16 @@
 
 <br>
 
-<p>Leave Comment</p>
+<h2>Leave Comment</h2>
 <%= render 'comments/form' %>
 
-<% @item.comments.each do |comment|%>
+<h2>Comments</h2>
+<% @item.comments.order(id: :desc).each do |comment|%>
 <br>
-<p>Title: <%= comment.title%></p>
-<p>Content: <%= comment.content%></p>
+<p>Title:<%= comment.title%></p>
+<p>Content:<%= comment.content%></p>
 <br>
 <% end %>
 
-<%= link_to 'Edit', edit_item_path(@item) %> |
-<%= link_to 'Back', items_path %>
+<%= link_to 'Edit items imfo', edit_item_path(@item) %> |
+<%= link_to 'Back to index', items_path %>
