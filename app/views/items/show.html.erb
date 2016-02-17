@@ -27,7 +27,7 @@
 <br>
 <p>Title:<%= comment.title%></p>
 <p>Content:<%= comment.content%></p>
-<br>
+<p><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></p>
 <% end %>
 
 <%= link_to 'Edit items imfo', edit_item_path(@item) %> |
